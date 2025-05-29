@@ -9,7 +9,7 @@ Snyk Code and Snyk Open Source together provide easy-to-use, fast and accurate S
 * snyk CLI - https://support.snyk.io/hc/en-us/articles/360003812538-Install-the-Snyk-CLI
 * Registered account on Snyk App - http://app.snyk.io
 * Maven installed - https://maven.apache.org/download.cgi
-* install snyk-to-html tool - https://docs.snyk.io/products/snyk-code/cli-for-snyk-code/displaying-the-cli-results-in-an-html-format-using-the-snyk-to-html-feature/installing-the-snyk-to-html-tool
+* Install snyk-to-html tool - https://docs.snyk.io/snyk-cli/scan-and-maintain-projects-using-the-cli/cli-tools/snyk-to-html
 
 ## What we will do in this hands-on workshop?
 
@@ -288,7 +288,7 @@ Notifications about newly disclosed issues related to these dependencies will be
 
 ![alt tag](https://i.ibb.co/3r8WpKq/app-sec-snyk-workshop-4.png)
 
-* Finally, lets run a scan and output the results to HTML. You must have installed the [snyk-to-html](https://docs.snyk.io/products/snyk-code/cli-for-snyk-code/displaying-the-cli-results-in-an-html-format-using-the-snyk-to-html-feature/installing-the-snyk-to-html-tool) add on for this to work
+* Finally, lets run a scan and output the results to HTML. You must have installed the [snyk-to-html](https://docs.snyk.io/snyk-cli/scan-and-maintain-projects-using-the-cli/cli-tools/snyk-to-html) add on for this to work
 
 ```bash
 $ snyk test --json | snyk-to-html -o results.html
